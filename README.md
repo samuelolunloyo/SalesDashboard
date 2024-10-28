@@ -1,4 +1,4 @@
-# Power BI Time Series Project
+# Power BI Project
 
 ### **Overview**
 This is my first portfolio project, aimed at showcasing my proficiency in Power BI.
