@@ -93,3 +93,23 @@ After transformations, the clean data was loaded into the Power BI workspace.
    Calculated the difference to analyze year-over-year changes:
    ```dax
    PYTD_vs_YTD = [S_YTD] - [S_PYTD]
+
+### Dashboard Layout and Visuals
+
+First, I adjusted the layout by installing a simple background image, following guidance from the YouTube video mentioned earlier. You can use any background of your choice to suit the project style.
+
+Creating the **measures** first made it straightforward to configure the visuals needed for the dashboard. Here’s how each visual element was organized:
+
+- **Sales, Quantity, and Gross Profit Metrics**: 
+  Each metric is dynamically displayed based on the **Switch Measures** (YTD and PYTD) for easy, on-the-go selections. This allows users to toggle between different metrics and track values over different periods.
+
+- **Top 5 Products by Sales**:
+  A clustered column chart displays the top 5 products based on sales. This visual was filtered using a Top N filter to highlight only the highest-performing products.
+
+- **Sales by Region**:
+  A map visual shows total sales by region, providing a geographic breakdown for a quick overview of where most sales are generated.
+
+- **Monthly Sales Trend**:
+  A line chart depicts monthly sales trends to illustrate seasonal changes or growth patterns over time. This visual is set to drill down by months to allow for an easy comparison of month-over-month growth.
+
+The dashboard structure and visualizations aim to communicate key performance insights with simplicity and clarity.
